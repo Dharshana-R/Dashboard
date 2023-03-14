@@ -1,0 +1,23 @@
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">Tution Fees</th>
+      <th scope="col">Association Fees</th>
+      <th scope="col">Exam Fees</th>
+      <th scope="col">Lab Fees</th>
+      <th scope="col">Hostel Fees</th>
+      <th scope="col">Bus Fees</th>
+      <th scope="col">Book Fees</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let fee of fees">
+      <td scope="row">{{fee.tution}}</td>
+      <td>{{fee.association}}</td>
+      <td>{{fee.exam}}</td>
+      <td>{{fee.lab}}</td>
+      <td>{{fee.hostel}}</td>
+      <td>{{fee.bus}}</td>
+      <td>{{fee.book}}</td>
+    </tr>
+  </tbody>

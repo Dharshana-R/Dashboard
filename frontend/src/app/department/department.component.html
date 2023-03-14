@@ -1,0 +1,26 @@
+<!-- create a table for department database -->
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">First Name</th>
+      <th scope="col">Last Name</th>
+      <th scope="col">Subject Code</th>
+      <th scope="col">Subject</th>
+      <th scope="col">Credit</th>
+      <th scope="col">Gender</th>
+      <th scope="col">Contact Number</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let department of departments">
+      <td scope="row">{{department.fname}}</td>
+      <td>{{department.lname}}</td>
+      <td>{{department.subcode}}</td>
+      <td>{{department.subject}}</td>
+      <td>{{department.credit}}</td>
+      <td>{{department.gender}}</td>
+      <td>{{department.contact}}</td>
+
+    </tr>
+  </tbody>

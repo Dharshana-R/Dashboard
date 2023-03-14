@@ -1,0 +1,30 @@
+.table {
+  margin-top: -13.5rem;
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+  background-color: transparent;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 1px solid #d2d2d2;
+  text-align: center;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+
+}
+
+.table th {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  vertical-align: bottom;
+  border-bottom: 2px solid #d2d2d2;
+  text-align: center;
+  background-color: #f5f5f5;
+  border-color: #d2d2d2;
+
+}
+
+.table td {
+  padding: 0.75rem;
+}

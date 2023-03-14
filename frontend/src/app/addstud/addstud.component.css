@@ -1,0 +1,47 @@
+h1 {
+  color: rgb(46, 101, 177);
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* style the form in neat manner*/
+
+/* Path: frontend\src\app\addstud\addstud.component.css */
+
+form {
+  border: 3px solid #f1f1f1;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: -10rem;
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+
+/* Path: frontend\src\app\addstud\addstud.component.css */
+
+/* style the input fields */
+
+input[type=text], input[type=email], input[type=number], input[type=date] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+
+/* style the submit button */
+
+button {
+  background-color: rgb(46, 101, 177);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
